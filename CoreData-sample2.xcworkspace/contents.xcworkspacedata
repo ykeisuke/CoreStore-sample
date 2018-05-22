@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CoreData-sample2/SampleThreadEntity+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CoreData-sample2/SampleThreadEntity+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:CoreData-sample2.xcodeproj">
    </FileRef>
    <FileRef
