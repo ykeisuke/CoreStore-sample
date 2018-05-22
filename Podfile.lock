@@ -1,0 +1,16 @@
+PODS:
+  - CoreStore (5.1.0)
+
+DEPENDENCIES:
+  - CoreStore (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CoreStore
+
+SPEC CHECKSUMS:
+  CoreStore: 5fd51cbe7ea2d7b4dfc6327031ab6ff6f7c63175
+
+PODFILE CHECKSUM: e356f757ac40ef63f1768dc631b5958493e4ad24
+
+COCOAPODS: 1.5.2
