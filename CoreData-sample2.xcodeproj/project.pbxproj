@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		107B6A8F338519945C2774A5 /* Pods_CoreData_sample2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B07E4597751F2EDDF62BAB2 /* Pods_CoreData_sample2.framework */; };
+		F71F531A20B6A53F00C6607D /* SampleEntityV2+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71F531920B6A53F00C6607D /* SampleEntityV2+CoreDataProperties.swift */; };
+		F71F531C20B6A56100C6607D /* SampleThreadEntityV2+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71F531B20B6A56100C6607D /* SampleThreadEntityV2+CoreDataProperties.swift */; };
+		F71F531E20B6A59B00C6607D /* SampleEntityV2+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71F531D20B6A59B00C6607D /* SampleEntityV2+CoreDataClass.swift */; };
+		F71F532020B6A5C200C6607D /* SampleThreadEntityV2+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71F531F20B6A5C200C6607D /* SampleThreadEntityV2+CoreDataClass.swift */; };
+		F737BA4920B58E4000004880 /* SampleThreadEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737BA4720B58E4000004880 /* SampleThreadEntity+CoreDataClass.swift */; };
+		F737BA4A20B58E4000004880 /* SampleThreadEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737BA4820B58E4000004880 /* SampleThreadEntity+CoreDataProperties.swift */; };
 		F7A3C07E20B30ABA00939163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A3C07D20B30ABA00939163 /* AppDelegate.swift */; };
 		F7A3C08020B30ABA00939163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A3C07F20B30ABA00939163 /* ViewController.swift */; };
 		F7A3C08320B30ABA00939163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A3C08120B30ABA00939163 /* Main.storyboard */; };
@@ -22,6 +28,13 @@
 		1543E952778E7741A5E0D5BC /* Pods-CoreData-sample2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreData-sample2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreData-sample2/Pods-CoreData-sample2.debug.xcconfig"; sourceTree = "<group>"; };
 		3B07E4597751F2EDDF62BAB2 /* Pods_CoreData_sample2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreData_sample2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD5EBB2B734F316438799B0 /* Pods-CoreData-sample2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreData-sample2.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreData-sample2/Pods-CoreData-sample2.release.xcconfig"; sourceTree = "<group>"; };
+		F71F531920B6A53F00C6607D /* SampleEntityV2+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SampleEntityV2+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F71F531B20B6A56100C6607D /* SampleThreadEntityV2+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SampleThreadEntityV2+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F71F531D20B6A59B00C6607D /* SampleEntityV2+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SampleEntityV2+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F71F531F20B6A5C200C6607D /* SampleThreadEntityV2+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SampleThreadEntityV2+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F737BA4620B58DCB00004880 /* CoreData_sample2v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData_sample2v2.xcdatamodel; sourceTree = "<group>"; };
+		F737BA4720B58E4000004880 /* SampleThreadEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SampleThreadEntity+CoreDataClass.swift"; path = "/Users/keisuke/Git/CoreData-sample2/CoreData-sample2/SampleThreadEntity+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		F737BA4820B58E4000004880 /* SampleThreadEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SampleThreadEntity+CoreDataProperties.swift"; path = "/Users/keisuke/Git/CoreData-sample2/CoreData-sample2/SampleThreadEntity+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		F7A3C07A20B30ABA00939163 /* CoreData-sample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-sample2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A3C07D20B30ABA00939163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A3C07F20B30ABA00939163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +76,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F737BA4520B58CE200004880 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				F7A3C08420B30ABA00939163 /* CoreData_sample2.xcdatamodeld */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		F7A3C07120B30ABA00939163 = {
 			isa = PBXGroup;
 			children = (
@@ -86,13 +107,19 @@
 			children = (
 				F7CA526920B3EBBD00A72D9A /* SampleEntity+CoreDataClass.swift */,
 				F7CA526820B3EBBD00A72D9A /* SampleEntity+CoreDataProperties.swift */,
+				F71F531D20B6A59B00C6607D /* SampleEntityV2+CoreDataClass.swift */,
+				F71F531920B6A53F00C6607D /* SampleEntityV2+CoreDataProperties.swift */,
+				F737BA4720B58E4000004880 /* SampleThreadEntity+CoreDataClass.swift */,
+				F737BA4820B58E4000004880 /* SampleThreadEntity+CoreDataProperties.swift */,
+				F71F531F20B6A5C200C6607D /* SampleThreadEntityV2+CoreDataClass.swift */,
+				F71F531B20B6A56100C6607D /* SampleThreadEntityV2+CoreDataProperties.swift */,
 				F7A3C07D20B30ABA00939163 /* AppDelegate.swift */,
 				F7A3C07F20B30ABA00939163 /* ViewController.swift */,
 				F7A3C08120B30ABA00939163 /* Main.storyboard */,
 				F7A3C08720B30ABC00939163 /* Assets.xcassets */,
 				F7A3C08920B30ABC00939163 /* LaunchScreen.storyboard */,
 				F7A3C08C20B30ABC00939163 /* Info.plist */,
-				F7A3C08420B30ABA00939163 /* CoreData_sample2.xcdatamodeld */,
+				F737BA4520B58CE200004880 /* New Group */,
 			);
 			path = "CoreData-sample2";
 			sourceTree = "<group>";
@@ -211,8 +238,14 @@
 			files = (
 				F7A3C08020B30ABA00939163 /* ViewController.swift in Sources */,
 				F7A3C07E20B30ABA00939163 /* AppDelegate.swift in Sources */,
+				F737BA4A20B58E4000004880 /* SampleThreadEntity+CoreDataProperties.swift in Sources */,
+				F737BA4920B58E4000004880 /* SampleThreadEntity+CoreDataClass.swift in Sources */,
+				F71F531E20B6A59B00C6607D /* SampleEntityV2+CoreDataClass.swift in Sources */,
+				F71F532020B6A5C200C6607D /* SampleThreadEntityV2+CoreDataClass.swift in Sources */,
+				F71F531A20B6A53F00C6607D /* SampleEntityV2+CoreDataProperties.swift in Sources */,
 				F7CA526A20B3EBBD00A72D9A /* SampleEntity+CoreDataProperties.swift in Sources */,
 				F7CA526B20B3EBBD00A72D9A /* SampleEntity+CoreDataClass.swift in Sources */,
+				F71F531C20B6A56100C6607D /* SampleThreadEntityV2+CoreDataProperties.swift in Sources */,
 				F7A3C08620B30ABA00939163 /* CoreData_sample2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,9 +451,10 @@
 		F7A3C08420B30ABA00939163 /* CoreData_sample2.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				F737BA4620B58DCB00004880 /* CoreData_sample2v2.xcdatamodel */,
 				F7A3C08520B30ABA00939163 /* CoreData_sample2.xcdatamodel */,
 			);
-			currentVersion = F7A3C08520B30ABA00939163 /* CoreData_sample2.xcdatamodel */;
+			currentVersion = F737BA4620B58DCB00004880 /* CoreData_sample2v2.xcdatamodel */;
 			path = CoreData_sample2.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

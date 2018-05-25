@@ -4,16 +4,13 @@
         <attribute name="attribute" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SampleThreadEntity" inverseName="relationship" inverseEntity="SampleThreadEntity" syncable="YES"/>
     </entity>
-    <entity name="SampleThreadEntity" representedClassName=".SampleThreadEntity" syncable="YES" codeGenerationType="class">
+    <entity name="SampleThreadEntity" representedClassName=".SampleThreadEntity" syncable="YES">
         <attribute name="attribute" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SampleEntity" inverseName="relationship" inverseEntity="SampleEntity" syncable="YES"/>
     </entity>
-    <configuration name="Default2">
-        <memberEntity name="SampleEntity"/>
-    </configuration>
     <elements>
         <element name="SampleEntity" positionX="-45" positionY="0" width="128" height="75"/>
-        <element name="SampleThreadEntity" positionX="-92" positionY="-354" width="128" height="90"/>
+        <element name="SampleThreadEntity" positionX="-227" positionY="-324" width="128" height="90"/>
     </elements>
 </model>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E202" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="SampleEntity" representedClassName=".SampleEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="attribute" optional="YES" attributeType="String" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="memo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="SampleThreadEntity" inverseName="relationship" inverseEntity="SampleThreadEntity" syncable="YES"/>
+    </entity>
+    <entity name="SampleThreadEntity" representedClassName=".SampleThreadEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="attribute" optional="YES" attributeType="String" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="memo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="SampleEntity" inverseName="relationship" inverseEntity="SampleEntity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SampleEntity" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="SampleThreadEntity" positionX="-54" positionY="18" width="128" height="105"/>
+    </elements>
+</model>

@@ -2,7 +2,7 @@
 //  SampleEntity+CoreDataProperties.swift
 //  
 //
-//  Created by Keisuke Yamaguchi on 2018/05/22.
+//  Created by Keisuke Yamaguchi on 2018/05/24.
 //
 //
 
@@ -17,5 +17,6 @@ extension SampleEntity {
     }
 
     @NSManaged public var attribute: String?
+    @NSManaged public var relationship: SampleThreadEntity?
 
 }
